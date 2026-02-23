@@ -1,0 +1,7 @@
+#POST http://localhost:7071/api/ValidaCPF
+POST https://appasantana8-validarcpf.azurewebsites.net/api/validacpf
+Content-Type: application/json
+
+{
+    "cpf": "92520353549"
+}
